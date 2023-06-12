@@ -1,0 +1,62 @@
+[0.279s] Invoking command in '/home/shrek/shrek_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shrek/shrek_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/my_bot
+[0.298s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.336s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.565s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.576s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.681s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.725s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.732s] -- Added test 'lint_cmake' to check CMake code style
+[0.735s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.757s] -- Added test 'xmllint' to check XML markup files
+[0.760s] -- Configuring done
+[0.764s] -- Generating done
+[0.765s] -- Build files have been written to: /home/shrek/shrek_ws/build/my_bot
+[0.774s] Invoked command in '/home/shrek/shrek_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shrek/shrek_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/my_bot
+[0.775s] Invoking command in '/home/shrek/shrek_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/my_bot -- -j8 -l8
+[0.845s] Invoked command in '/home/shrek/shrek_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/my_bot -- -j8 -l8
+[0.896s] Invoking command in '/home/shrek/shrek_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/my_bot
+[0.910s] -- Install configuration: ""
+[0.911s] -- Execute custom install script
+[0.914s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/drive.rviz
+[0.921s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/gaz_ros2_control_use_sim.yaml
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/nav2_params.yaml
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/rvizbot.rviz
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.922s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/localization_launch.py
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/navigation_launch.py
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/online_async_launch.py
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/rd.launch.py
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/worlds/speeltuin
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/worlds/speeltuin.world
+[0.923s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/meshes/Mid.stl
+[0.924s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/meshes/MotorBeugel.stl
+[0.924s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/meshes/Onderstel.stl
+[0.924s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.924s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.924s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.924s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.925s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.925s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.925s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.926s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.926s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.926s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.926s] -- Symlinking: /home/shrek/shrek_ws/install/my_bot/share/my_bot/package.dsv
+[0.934s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.935s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.935s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.935s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/package.xml
+[0.943s] Invoked command in '/home/shrek/shrek_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/my_bot

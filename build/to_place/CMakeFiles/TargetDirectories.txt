@@ -1,0 +1,9 @@
+/home/shrek/shrek_ws/build/to_place/CMakeFiles/install/strip.dir
+/home/shrek/shrek_ws/build/to_place/CMakeFiles/install/local.dir
+/home/shrek/shrek_ws/build/to_place/CMakeFiles/install.dir
+/home/shrek/shrek_ws/build/to_place/CMakeFiles/list_install_components.dir
+/home/shrek/shrek_ws/build/to_place/CMakeFiles/rebuild_cache.dir
+/home/shrek/shrek_ws/build/to_place/CMakeFiles/edit_cache.dir
+/home/shrek/shrek_ws/build/to_place/CMakeFiles/test.dir
+/home/shrek/shrek_ws/build/to_place/CMakeFiles/to_place_uninstall.dir
+/home/shrek/shrek_ws/build/to_place/CMakeFiles/uninstall.dir

@@ -1,0 +1,16 @@
+/home/shrek/shrek_ws/install/goalxy/lib/goalxy/move.py
+/home/shrek/shrek_ws/install/goalxy/share/ament_index/resource_index/package_run_dependencies/goalxy
+/home/shrek/shrek_ws/install/goalxy/share/ament_index/resource_index/parent_prefix_path/goalxy
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/ament_prefix_path.sh
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/ament_prefix_path.dsv
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/path.sh
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/path.dsv
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.bash
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.sh
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.zsh
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.dsv
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/package.dsv
+/home/shrek/shrek_ws/install/goalxy/share/ament_index/resource_index/packages/goalxy
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/cmake/goalxyConfig.cmake
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/cmake/goalxyConfig-version.cmake
+/home/shrek/shrek_ws/install/goalxy/share/goalxy/package.xml

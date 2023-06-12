@@ -1,0 +1,536 @@
+[0.197s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.197s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9cee230100>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9cee230100>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9cee230640>)
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.235s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shrek/shrek_ws'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial' with type 'ros.catkin' and name 'rosserial'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_arduino) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_arduino) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_arduino) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_arduino) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_arduino) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_arduino) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_arduino) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_arduino) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_arduino' with type 'ros.catkin' and name 'rosserial_arduino'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_chibios) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_chibios) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_chibios) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_chibios) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_chibios) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_chibios) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_chibios) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_chibios) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_chibios) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_chibios' with type 'ros.catkin' and name 'rosserial_chibios'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_client) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_client) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_client) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_client) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_client) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_client) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_client) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_client) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_client) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_client' with type 'ros.catkin' and name 'rosserial_client'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_embeddedlinux) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_embeddedlinux) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_embeddedlinux) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_embeddedlinux) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_embeddedlinux) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_embeddedlinux) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_embeddedlinux) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_embeddedlinux) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_embeddedlinux) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_embeddedlinux' with type 'ros.catkin' and name 'rosserial_embeddedlinux'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_mbed) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_mbed) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_mbed) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_mbed) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_mbed) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_mbed) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_mbed) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_mbed) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_mbed) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_mbed' with type 'ros.catkin' and name 'rosserial_mbed'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_msgs) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_msgs) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_msgs) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_msgs) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_msgs) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_msgs) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_msgs) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_msgs) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_msgs' with type 'ros.catkin' and name 'rosserial_msgs'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_python) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_python) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_python) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_python) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_python) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_python) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_python) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_python) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_python) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_python' with type 'ros.catkin' and name 'rosserial_python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_server) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_server) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_server) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_server) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_server) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_server) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_server) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_server) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_server) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_server' with type 'ros.catkin' and name 'rosserial_server'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_test) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_test) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_test) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_test) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_test) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_test) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_test) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_test) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_test) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_test' with type 'ros.catkin' and name 'rosserial_test'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_tivac) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_tivac) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_tivac) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_tivac) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_tivac) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_tivac) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_tivac) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_tivac) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_tivac) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_tivac' with type 'ros.catkin' and name 'rosserial_tivac'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_cortex) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_cortex) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_cortex) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_cortex) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_cortex) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_cortex) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_cortex) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_cortex) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_cortex) by extension 'ros'
+[0.296s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_vex_cortex' with type 'ros.catkin' and name 'rosserial_vex_cortex'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_v5) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_v5) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_v5) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_v5) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_v5) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_v5) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_v5) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_v5) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_vex_v5) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_vex_v5' with type 'ros.catkin' and name 'rosserial_vex_v5'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_windows) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_windows) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_windows) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_windows) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_windows) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_windows) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_windows) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_windows) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_windows) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_windows' with type 'ros.catkin' and name 'rosserial_windows'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_xbee) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_xbee) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_xbee) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_xbee) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_xbee) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_xbee) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_xbee) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_xbee) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosserial/rosserial_xbee) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosserial/rosserial_xbee' with type 'ros.catkin' and name 'rosserial_xbee'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_place) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_place) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_place) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_place) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_place) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_place) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_place) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_place) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_place) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/to_place' with type 'ros.ament_cmake' and name 'to_place'
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.331s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/shrek/shrek_ws/install
+[0.334s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 267 installed packages in /opt/ros/foxy
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/my_bot', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'rosserial_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_msgs', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'to_place' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'to_place' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'to_place' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'to_place' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'to_place' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'to_place' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'to_place' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'to_place' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'to_place' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] DEBUG:colcon.colcon_core.verb:Building package 'to_place' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/to_place', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/to_place', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/to_place', 'symlink_install': True, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_target' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'rosserial_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_client', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_client', 'symlink_install': True, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosserial_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_python', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_python', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rosserial_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_server', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_server', 'symlink_install': True, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rosserial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial', 'symlink_install': True, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rosserial_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_arduino', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_arduino', 'symlink_install': True, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'rosserial_chibios' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_chibios' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_chibios', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_chibios', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_chibios', 'symlink_install': True, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rosserial_embeddedlinux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_embeddedlinux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_embeddedlinux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_embeddedlinux', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_embeddedlinux', 'symlink_install': True, 'test_result_base': None}
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_target' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_clean_cache' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_clean_first' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'cmake_force_configure' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'ament_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'catkin_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'rosserial_mbed' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.444s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_mbed' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_mbed', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_mbed', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_mbed', 'symlink_install': True, 'test_result_base': None}
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_target' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'rosserial_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.445s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_test', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_test', 'symlink_install': True, 'test_result_base': None}
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_target' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_clean_cache' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_clean_first' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'cmake_force_configure' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'ament_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'catkin_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'rosserial_tivac' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_tivac' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_tivac', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_tivac', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_tivac', 'symlink_install': True, 'test_result_base': None}
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_target' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_clean_cache' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_clean_first' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'cmake_force_configure' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'ament_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'catkin_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_cortex' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.448s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_vex_cortex' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_vex_cortex', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_vex_cortex', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_vex_cortex', 'symlink_install': True, 'test_result_base': None}
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_target' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_clean_first' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'cmake_force_configure' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'ament_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'rosserial_vex_v5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.450s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_vex_v5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_vex_v5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_vex_v5', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_vex_v5', 'symlink_install': True, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'rosserial_windows' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_windows' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_windows', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_windows', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_windows', 'symlink_install': True, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'rosserial_xbee' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'rosserial_xbee' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shrek/shrek_ws/build/rosserial_xbee', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shrek/shrek_ws/install/rosserial_xbee', 'merge_install': False, 'path': '/home/shrek/shrek_ws/src/rosserial/rosserial_xbee', 'symlink_install': True, 'test_result_base': None}
+[0.453s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.460s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/shrek/shrek_ws/src/rosserial/rosserial_msgs' with build type 'catkin'
+[0.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shrek/shrek_ws/src/rosserial/rosserial_msgs'
+[0.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shrek/shrek_ws/src/my_bot' with build type 'ament_cmake'
+[0.476s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shrek/shrek_ws/src/my_bot'
+[0.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.487s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shrek/shrek_ws/src/to_place' with build type 'ament_cmake'
+[0.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shrek/shrek_ws/src/to_place'
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shrek/shrek_ws/build/rosserial_msgs': /usr/bin/cmake /home/shrek/shrek_ws/src/rosserial/rosserial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/rosserial_msgs
+[0.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shrek/shrek_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/my_bot -- -j8 -l8
+[0.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shrek/shrek_ws/build/to_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/to_place -- -j8 -l8
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shrek/shrek_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/my_bot -- -j8 -l8
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shrek/shrek_ws/build/to_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/to_place -- -j8 -l8
+[0.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shrek/shrek_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/my_bot
+[0.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shrek/shrek_ws/build/to_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/to_place
+[0.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(to_place)
+[0.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shrek/shrek_ws/build/to_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/to_place
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place' for CMake module files
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place' for CMake config files
+[0.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('to_place', 'cmake_prefix_path')
+[0.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrek/shrek_ws/install/to_place/share/to_place/hook/cmake_prefix_path.ps1'
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shrek/shrek_ws/install/to_place/share/to_place/hook/cmake_prefix_path.dsv'
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrek/shrek_ws/install/to_place/share/to_place/hook/cmake_prefix_path.sh'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place/lib'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place/bin'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place/lib/pkgconfig/to_place.pc'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place/lib/python3.8/site-packages'
+[0.668s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place/bin'
+[0.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/to_place/share/to_place/package.ps1'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shrek/shrek_ws/install/to_place/share/to_place/package.dsv'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/to_place/share/to_place/package.sh'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/to_place/share/to_place/package.bash'
+[0.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/to_place/share/to_place/package.zsh'
+[0.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shrek/shrek_ws/install/to_place/share/colcon-core/packages/to_place)
+[0.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shrek/shrek_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/my_bot
+[0.685s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot' for CMake module files
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot' for CMake config files
+[0.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[0.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrek/shrek_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[0.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shrek/shrek_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrek/shrek_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot/bin'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot/lib/python3.8/site-packages'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot/bin'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/my_bot/share/my_bot/package.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shrek/shrek_ws/install/my_bot/share/my_bot/package.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/my_bot/share/my_bot/package.sh'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/my_bot/share/my_bot/package.bash'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/my_bot/share/my_bot/package.zsh'
+[0.696s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shrek/shrek_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[0.708s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(to_place)
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place' for CMake module files
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place' for CMake config files
+[0.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('to_place', 'cmake_prefix_path')
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrek/shrek_ws/install/to_place/share/to_place/hook/cmake_prefix_path.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shrek/shrek_ws/install/to_place/share/to_place/hook/cmake_prefix_path.dsv'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrek/shrek_ws/install/to_place/share/to_place/hook/cmake_prefix_path.sh'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place/lib'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place/bin'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place/lib/pkgconfig/to_place.pc'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place/lib/python3.8/site-packages'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/to_place/bin'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/to_place/share/to_place/package.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shrek/shrek_ws/install/to_place/share/to_place/package.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/to_place/share/to_place/package.sh'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/to_place/share/to_place/package.bash'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/to_place/share/to_place/package.zsh'
+[0.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shrek/shrek_ws/install/to_place/share/colcon-core/packages/to_place)
+[0.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot' for CMake module files
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot' for CMake config files
+[0.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrek/shrek_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shrek/shrek_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shrek/shrek_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot/bin'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot/lib/python3.8/site-packages'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/my_bot/bin'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/my_bot/share/my_bot/package.ps1'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shrek/shrek_ws/install/my_bot/share/my_bot/package.dsv'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/my_bot/share/my_bot/package.sh'
+[0.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/my_bot/share/my_bot/package.bash'
+[0.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/my_bot/share/my_bot/package.zsh'
+[0.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shrek/shrek_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[1.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shrek/shrek_ws/build/rosserial_msgs' returned '1': /usr/bin/cmake /home/shrek/shrek_ws/src/rosserial/rosserial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/rosserial_msgs
+[1.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosserial_msgs)
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/rosserial_msgs' for CMake module files
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/rosserial_msgs' for CMake config files
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/rosserial_msgs/bin'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/rosserial_msgs/lib/pkgconfig/rosserial_msgs.pc'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/rosserial_msgs/lib/python3.8/site-packages'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/shrek/shrek_ws/install/rosserial_msgs/bin'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/rosserial_msgs/share/rosserial_msgs/package.ps1'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shrek/shrek_ws/install/rosserial_msgs/share/rosserial_msgs/package.dsv'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/rosserial_msgs/share/rosserial_msgs/package.sh'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/rosserial_msgs/share/rosserial_msgs/package.bash'
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/shrek/shrek_ws/install/rosserial_msgs/share/rosserial_msgs/package.zsh'
+[1.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shrek/shrek_ws/install/rosserial_msgs/share/colcon-core/packages/rosserial_msgs)
+[1.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.283s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.298s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.319s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.321s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shrek/shrek_ws/install/local_setup.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shrek/shrek_ws/install/_local_setup_util_ps1.py'
+[1.326s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shrek/shrek_ws/install/setup.ps1'
+[1.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shrek/shrek_ws/install/local_setup.sh'
+[1.329s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shrek/shrek_ws/install/_local_setup_util_sh.py'
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shrek/shrek_ws/install/setup.sh'
+[1.331s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shrek/shrek_ws/install/local_setup.bash'
+[1.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shrek/shrek_ws/install/setup.bash'
+[1.333s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shrek/shrek_ws/install/local_setup.zsh'
+[1.334s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shrek/shrek_ws/install/setup.zsh'

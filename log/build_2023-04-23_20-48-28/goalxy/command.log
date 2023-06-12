@@ -1,0 +1,4 @@
+Invoking command in '/home/shrek/shrek_ws/build/goalxy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/goalxy -- -j8 -l8
+Invoked command in '/home/shrek/shrek_ws/build/goalxy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/goalxy -- -j8 -l8
+Invoking command in '/home/shrek/shrek_ws/build/goalxy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/goalxy
+Invoked command in '/home/shrek/shrek_ws/build/goalxy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/goalxy

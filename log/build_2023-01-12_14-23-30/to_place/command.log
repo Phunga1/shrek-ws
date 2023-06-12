@@ -1,0 +1,4 @@
+Invoking command in '/home/shrek/shrek_ws/build/to_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/to_place -- -j8 -l8
+Invoked command in '/home/shrek/shrek_ws/build/to_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/to_place -- -j8 -l8
+Invoking command in '/home/shrek/shrek_ws/build/to_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/to_place
+Invoked command in '/home/shrek/shrek_ws/build/to_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/to_place

@@ -1,0 +1,116 @@
+[0.065s] Invoking command in '/home/shrek/shrek_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shrek/shrek_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/gazebo_ros2_control
+[0.331s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.331s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.331s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.331s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[0.331s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[0.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.387s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.319s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.638s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[1.689s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.728s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.730s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.738s] -- Searching for dependencies of ignition-math6
+[1.740s] -- Looking for OGRE...
+[1.745s] -- Found Ogre Ghadamon (1.9.0)
+[1.746s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.755s] -- Looking for OGRE_Paging...
+[1.755s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.755s] -- Looking for OGRE_Terrain...
+[1.755s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.755s] -- Looking for OGRE_Property...
+[1.755s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.755s] -- Looking for OGRE_RTShaderSystem...
+[1.755s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.755s] -- Looking for OGRE_Volume...
+[1.755s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.755s] -- Looking for OGRE_Overlay...
+[1.755s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.875s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.876s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.876s] -- Searching for dependencies of ignition-transport8
+[1.894s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.903s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.907s] -- Checking for module 'libzmq >= 4'
+[1.923s] --   Found libzmq , version 4.3.2
+[1.959s] -- Checking for module 'uuid'
+[1.976s] --   Found uuid, version 2.34.0
+[2.009s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.010s] -- Searching for dependencies of ignition-msgs5
+[2.030s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.037s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.037s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.037s] -- Searching for dependencies of ignition-common3
+[2.038s] -- Looking for dlfcn.h - found
+[2.038s] -- Looking for libdl - found
+[2.048s] -- Searching for <ignition-common3> component [graphics]
+[2.049s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[2.049s] -- Searching for dependencies of ignition-common3-graphics
+[2.049s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.051s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[2.051s] -- Searching for dependencies of ignition-fuel_tools4
+[2.080s] -- Checking for module 'jsoncpp'
+[2.094s] --   Found jsoncpp, version 1.7.4
+[2.129s] -- Checking for module 'libzip'
+[2.142s] --   Found libzip, version 1.5.1
+[2.175s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.175s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.176s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.177s] -- Gazebo version: 11.11
+[2.178s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[2.189s] -- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[2.189s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[2.347s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.347s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.419s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.420s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.420s] -- Configured cppcheck include dirs: /home/shrek/shrek_ws/src/gazebo_ros2_control/gazebo_ros2_control/include
+[2.420s] -- Configured cppcheck exclude dirs and/or files: 
+[2.421s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.421s] -- Configured cpplint exclude dirs and/or files: 
+[2.421s] -- Added test 'lint_cmake' to check CMake code style
+[2.422s] -- Added test 'uncrustify' to check C / C++ code style
+[2.422s] -- Configured uncrustify additional arguments: 
+[2.422s] -- Added test 'xmllint' to check XML markup files
+[2.427s] -- Configuring done
+[2.481s] -- Generating done
+[2.481s] -- Build files have been written to: /home/shrek/shrek_ws/build/gazebo_ros2_control
+[2.500s] Invoked command in '/home/shrek/shrek_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/shrek/shrek_ws/src/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/gazebo_ros2_control
+[2.501s] Invoking command in '/home/shrek/shrek_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/gazebo_ros2_control -- -j8 -l8
+[2.575s] [ 50%] Built target gazebo_hardware_plugins
+[2.581s] [100%] Built target gazebo_ros2_control
+[2.594s] Invoked command in '/home/shrek/shrek_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/gazebo_ros2_control -- -j8 -l8
+[2.620s] Invoking command in '/home/shrek/shrek_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/gazebo_ros2_control
+[2.629s] -- Install configuration: ""
+[2.630s] -- Execute custom install script
+[2.630s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[2.630s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[2.631s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[2.631s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[2.634s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[2.634s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[2.634s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[2.634s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[2.634s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[2.634s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[2.635s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[2.635s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[2.635s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[2.635s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[2.635s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[2.635s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[2.635s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[2.635s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[2.635s] -- Symlinking: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[2.644s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[2.645s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[2.645s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.645s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.645s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[2.645s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[2.646s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[2.646s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[2.651s] Invoked command in '/home/shrek/shrek_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/gazebo_ros2_control

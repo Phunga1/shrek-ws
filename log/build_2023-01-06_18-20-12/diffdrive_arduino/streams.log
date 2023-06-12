@@ -1,0 +1,86 @@
+[0.011s] Invoking command in '/home/shrek/shrek_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/shrek/shrek_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/diffdrive_arduino
+[0.075s] -- The C compiler identification is GNU 9.4.0
+[0.139s] -- The CXX compiler identification is GNU 9.4.0
+[0.145s] -- Check for working C compiler: /usr/bin/cc
+[0.225s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.227s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.320s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.323s] -- Check for working CXX compiler: /usr/bin/c++
+[0.409s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.410s] -- Detecting CXX compiler ABI info
+[0.502s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.519s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.547s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.547s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.740s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.765s] -- Found serial: 1.2.1 (/home/shrek/shrek_ws/install/serial/share/serial/cmake)
+[0.776s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[0.832s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.841s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.951s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.985s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.088s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.719s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[1.806s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.809s] -- Looking for pthread.h
+[1.894s] -- Looking for pthread.h - found
+[1.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.985s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.986s] -- Looking for pthread_create in pthreads
+[2.054s] -- Looking for pthread_create in pthreads - not found
+[2.055s] -- Looking for pthread_create in pthread
+[2.140s] -- Looking for pthread_create in pthread - found
+[2.141s] -- Found Threads: TRUE  
+[2.895s] -- Configuring done
+[2.956s] -- Generating done
+[2.957s] -- Build files have been written to: /home/shrek/shrek_ws/build/diffdrive_arduino
+[2.967s] Invoked command in '/home/shrek/shrek_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/shrek/shrek_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/diffdrive_arduino
+[2.971s] Invoking command in '/home/shrek/shrek_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/shrek/shrek_ws/build/diffdrive_arduino -- -j8 -l8
+[3.020s] [35m[1mScanning dependencies of target fake_robot[0m
+[3.020s] [35m[1mScanning dependencies of target diffdrive_arduino[0m
+[3.108s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[3.108s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[3.112s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[3.114s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[3.114s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[6.129s] [ 85%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[6.293s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[6.322s] [100%] Built target fake_robot
+[6.475s] [100%] Built target diffdrive_arduino
+[6.489s] Invoked command in '/home/shrek/shrek_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/shrek/shrek_ws/build/diffdrive_arduino -- -j8 -l8
+[6.525s] Invoking command in '/home/shrek/shrek_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/shrek/shrek_ws/build/diffdrive_arduino
+[6.536s] -- Install configuration: ""
+[6.536s] -- Execute custom install script
+[6.536s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[6.547s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[6.555s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[6.562s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[6.570s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[6.578s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[6.588s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[6.597s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[6.607s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[6.615s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[6.627s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[6.640s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[6.651s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[6.659s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[6.667s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[6.674s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[6.682s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[6.691s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[6.698s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[6.706s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[6.713s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[6.725s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[6.737s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[6.745s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.756s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[6.764s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[6.775s] -- Symlinking: /home/shrek/shrek_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[6.787s] Invoked command in '/home/shrek/shrek_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/shrek/shrek_ws/build/diffdrive_arduino

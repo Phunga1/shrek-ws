@@ -1,0 +1,8 @@
+source;share/goalxy/hook/cmake_prefix_path.ps1
+source;share/goalxy/hook/cmake_prefix_path.dsv
+source;share/goalxy/hook/cmake_prefix_path.sh
+source;share/goalxy/local_setup.bash
+source;share/goalxy/local_setup.dsv
+source;share/goalxy/local_setup.ps1
+source;share/goalxy/local_setup.sh
+source;share/goalxy/local_setup.zsh

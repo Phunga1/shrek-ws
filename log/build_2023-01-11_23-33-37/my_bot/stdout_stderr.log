@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/drive.rviz
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/empty.yaml
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/gaz_ros2_control_use_sim.yaml
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/rvizbot.rviz
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/lidar.xacro
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/shrek/shrek_ws/src/my_bot/meshes'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:41 (include)
+
+
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+-- Up-to-date symlink: /home/shrek/shrek_ws/install/my_bot/share/my_bot/worlds/empty.world

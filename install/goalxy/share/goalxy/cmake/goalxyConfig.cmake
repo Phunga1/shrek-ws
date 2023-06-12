@@ -1,0 +1,1 @@
+/home/shrek/shrek_ws/build/goalxy/ament_cmake_core/goalxyConfig.cmake

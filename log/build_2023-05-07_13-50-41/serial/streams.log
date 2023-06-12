@@ -1,0 +1,44 @@
+[0.049s] Invoking command in '/home/shrek/shrek_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake /home/shrek/shrek_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/serial
+[0.278s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.278s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.282s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.300s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.309s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.385s] -- Configuring done
+[0.401s] -- Generating done
+[0.402s] -- Build files have been written to: /home/shrek/shrek_ws/build/serial
+[0.407s] Invoked command in '/home/shrek/shrek_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake /home/shrek/shrek_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/serial
+[0.412s] Invoking command in '/home/shrek/shrek_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/serial -- -j8 -l8
+[0.475s] [ 42%] Built target serial
+[0.475s] [ 42%] Built target gtest_main
+[0.486s] [ 57%] Built target gtest
+[0.502s] [ 71%] Built target serial_example
+[0.518s] [ 85%] Built target serial-test
+[0.519s] [100%] Built target serial-test-timer
+[0.534s] Invoked command in '/home/shrek/shrek_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/serial -- -j8 -l8
+[0.588s] Invoking command in '/home/shrek/shrek_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/serial
+[0.599s] -- Install configuration: ""
+[0.600s] -- Execute custom install script
+[0.600s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/lib/libserial.a
+[0.600s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/include/serial/serial.h
+[0.600s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/include/serial/v8stdint.h
+[0.601s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/environment/library_path.sh
+[0.601s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/environment/library_path.dsv
+[0.601s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.601s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.601s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.602s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.602s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/environment/path.sh
+[0.602s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/environment/path.dsv
+[0.602s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/local_setup.bash
+[0.603s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/local_setup.sh
+[0.603s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/local_setup.zsh
+[0.603s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/local_setup.dsv
+[0.603s] -- Symlinking: /home/shrek/shrek_ws/install/serial/share/serial/package.dsv
+[0.617s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/ament_index/resource_index/packages/serial
+[0.618s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.618s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.619s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[0.619s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.619s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/serial/share/serial/package.xml
+[0.623s] Invoked command in '/home/shrek/shrek_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/serial

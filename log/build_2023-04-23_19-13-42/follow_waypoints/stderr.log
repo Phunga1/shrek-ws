@@ -1,0 +1,5 @@
+  File "/home/shrek/shrek_ws/install/follow_waypoints/lib/python3.8/site-packages/follow_waypoints/follow_waypoints.py", line 71
+    for pt in inspection route:
+                         ^
+SyntaxError: invalid syntax
+

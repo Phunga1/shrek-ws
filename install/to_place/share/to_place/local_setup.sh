@@ -1,0 +1,1 @@
+/home/shrek/shrek_ws/build/to_place/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,76 @@
+[0.010s] Invoking command in '/home/shrek/shrek_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/shrek/shrek_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/gazebo_ros2_control_demos
+[0.025s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.194s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.201s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.221s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.703s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.730s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.731s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.850s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.894s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.894s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.958s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.958s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.959s] -- Configured cppcheck include dirs: 
+[0.959s] -- Configured cppcheck exclude dirs and/or files: 
+[0.959s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.960s] -- Configured cpplint exclude dirs and/or files: 
+[0.960s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.960s] -- Added test 'lint_cmake' to check CMake code style
+[0.961s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.961s] -- Added test 'uncrustify' to check C / C++ code style
+[0.962s] -- Configured uncrustify additional arguments: 
+[0.962s] -- Added test 'xmllint' to check XML markup files
+[0.964s] -- Configuring done
+[0.986s] -- Generating done
+[0.989s] -- Build files have been written to: /home/shrek/shrek_ws/build/gazebo_ros2_control_demos
+[0.998s] Invoked command in '/home/shrek/shrek_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/shrek/shrek_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/gazebo_ros2_control_demos
+[1.001s] Invoking command in '/home/shrek/shrek_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/shrek/shrek_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[1.064s] [ 60%] Built target example_velocity
+[1.064s] [ 60%] Built target example_position
+[1.064s] [ 60%] Built target example_gripper
+[1.067s] [ 80%] Built target example_effort
+[1.071s] [100%] Built target example_diff_drive
+[1.083s] Invoked command in '/home/shrek/shrek_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/shrek/shrek_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[1.109s] Invoking command in '/home/shrek/shrek_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/shrek/shrek_ws/build/gazebo_ros2_control_demos
+[1.120s] -- Install configuration: ""
+[1.120s] -- Execute custom install script
+[1.121s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[1.121s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[1.121s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[1.121s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[1.121s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[1.122s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller.yaml
+[1.122s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_effort.yaml
+[1.122s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_velocity.yaml
+[1.122s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[1.122s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[1.123s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[1.123s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[1.123s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[1.123s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[1.123s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[1.124s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[1.124s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[1.124s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[1.124s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[1.124s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[1.125s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[1.125s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[1.125s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[1.125s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[1.125s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[1.125s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[1.126s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[1.126s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[1.126s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[1.126s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[1.126s] -- Symlinking: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[1.136s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[1.136s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[1.136s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[1.137s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[1.141s] Invoked command in '/home/shrek/shrek_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/shrek/shrek_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/shrek/shrek_ws/build/gazebo_ros2_control_demos

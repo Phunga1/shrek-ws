@@ -1,0 +1,36 @@
+[0.242s] Invoking command in '/home/shrek/shrek_ws/build/goalxy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake /home/shrek/shrek_ws/src/goalxy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/goalxy
+[0.262s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.282s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.516s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.524s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.612s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.622s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.623s] -- Added test 'lint_cmake' to check CMake code style
+[0.623s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.623s] -- Added test 'xmllint' to check XML markup files
+[0.626s] -- Configuring done
+[0.631s] -- Generating done
+[0.631s] -- Build files have been written to: /home/shrek/shrek_ws/build/goalxy
+[0.636s] Invoked command in '/home/shrek/shrek_ws/build/goalxy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake /home/shrek/shrek_ws/src/goalxy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/goalxy
+[0.639s] Invoking command in '/home/shrek/shrek_ws/build/goalxy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/goalxy -- -j8 -l8
+[0.702s] Invoked command in '/home/shrek/shrek_ws/build/goalxy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/goalxy -- -j8 -l8
+[0.735s] Invoking command in '/home/shrek/shrek_ws/build/goalxy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/goalxy
+[0.744s] -- Install configuration: ""
+[0.744s] -- Execute custom install script
+[0.744s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/lib/goalxy/move.py
+[0.744s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/ament_index/resource_index/package_run_dependencies/goalxy
+[0.745s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/ament_index/resource_index/parent_prefix_path/goalxy
+[0.745s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/ament_prefix_path.sh
+[0.745s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/ament_prefix_path.dsv
+[0.745s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/path.sh
+[0.745s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/path.dsv
+[0.746s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.bash
+[0.747s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.sh
+[0.747s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.zsh
+[0.747s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.dsv
+[0.747s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/package.dsv
+[0.760s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/ament_index/resource_index/packages/goalxy
+[0.761s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/cmake/goalxyConfig.cmake
+[0.761s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/cmake/goalxyConfig-version.cmake
+[0.761s] -- Up-to-date symlink: /home/shrek/shrek_ws/install/goalxy/share/goalxy/package.xml
+[0.767s] Invoked command in '/home/shrek/shrek_ws/build/goalxy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shrek/shrek_ws/install/follow_waypoints:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/goalxy

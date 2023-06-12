@@ -1,0 +1,48 @@
+[0.048s] Invoking command in '/home/shrek/shrek_ws/build/goalxy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/shrek/shrek_ws/src/goalxy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/goalxy
+[0.211s] -- The C compiler identification is GNU 9.4.0
+[0.333s] -- The CXX compiler identification is GNU 9.4.0
+[0.342s] -- Check for working C compiler: /usr/bin/cc
+[0.428s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.430s] -- Detecting C compiler ABI info
+[0.512s] -- Detecting C compiler ABI info - done
+[0.528s] -- Detecting C compile features
+[0.529s] -- Detecting C compile features - done
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.636s] -- Detecting CXX compiler ABI info
+[0.739s] -- Detecting CXX compiler ABI info - done
+[0.754s] -- Detecting CXX compile features
+[0.755s] -- Detecting CXX compile features - done
+[0.758s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.791s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.791s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.023s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.062s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.165s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.168s] -- Added test 'lint_cmake' to check CMake code style
+[1.170s] -- Added test 'xmllint' to check XML markup files
+[1.173s] -- Configuring done
+[1.175s] -- Generating done
+[1.176s] -- Build files have been written to: /home/shrek/shrek_ws/build/goalxy
+[1.180s] Invoked command in '/home/shrek/shrek_ws/build/goalxy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/shrek/shrek_ws/src/goalxy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/goalxy
+[1.184s] Invoking command in '/home/shrek/shrek_ws/build/goalxy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/goalxy -- -j8 -l8
+[1.235s] Invoked command in '/home/shrek/shrek_ws/build/goalxy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/shrek/shrek_ws/build/goalxy -- -j8 -l8
+[1.268s] Invoking command in '/home/shrek/shrek_ws/build/goalxy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/goalxy
+[1.280s] -- Install configuration: ""
+[1.281s] -- Execute custom install script
+[1.281s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/ament_index/resource_index/package_run_dependencies/goalxy
+[1.294s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/ament_index/resource_index/parent_prefix_path/goalxy
+[1.308s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/ament_prefix_path.sh
+[1.318s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/ament_prefix_path.dsv
+[1.331s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/path.sh
+[1.342s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/environment/path.dsv
+[1.354s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.bash
+[1.365s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.sh
+[1.378s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.zsh
+[1.388s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/local_setup.dsv
+[1.402s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/package.dsv
+[1.414s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/ament_index/resource_index/packages/goalxy
+[1.427s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/cmake/goalxyConfig.cmake
+[1.439s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/cmake/goalxyConfig-version.cmake
+[1.450s] -- Symlinking: /home/shrek/shrek_ws/install/goalxy/share/goalxy/package.xml
+[1.467s] Invoked command in '/home/shrek/shrek_ws/build/goalxy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/shrek/shrek_ws/build/goalxy

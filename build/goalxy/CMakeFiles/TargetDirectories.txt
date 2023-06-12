@@ -1,0 +1,9 @@
+/home/shrek/shrek_ws/build/goalxy/CMakeFiles/install/strip.dir
+/home/shrek/shrek_ws/build/goalxy/CMakeFiles/install/local.dir
+/home/shrek/shrek_ws/build/goalxy/CMakeFiles/install.dir
+/home/shrek/shrek_ws/build/goalxy/CMakeFiles/list_install_components.dir
+/home/shrek/shrek_ws/build/goalxy/CMakeFiles/rebuild_cache.dir
+/home/shrek/shrek_ws/build/goalxy/CMakeFiles/edit_cache.dir
+/home/shrek/shrek_ws/build/goalxy/CMakeFiles/test.dir
+/home/shrek/shrek_ws/build/goalxy/CMakeFiles/goalxy_uninstall.dir
+/home/shrek/shrek_ws/build/goalxy/CMakeFiles/uninstall.dir

@@ -1,0 +1,4 @@
+source;share/goalxy/local_setup.bash
+source;share/goalxy/local_setup.dsv
+source;share/goalxy/local_setup.sh
+source;share/goalxy/local_setup.zsh

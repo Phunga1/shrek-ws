@@ -1,0 +1,2 @@
+Invoking command in '/home/shrek/shrek_ws/build/rosserial_msgs': /usr/bin/cmake /home/shrek/shrek_ws/src/rosserial/rosserial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/rosserial_msgs
+Invoked command in '/home/shrek/shrek_ws/build/rosserial_msgs' returned '1': /usr/bin/cmake /home/shrek/shrek_ws/src/rosserial/rosserial_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/shrek/shrek_ws/install/rosserial_msgs

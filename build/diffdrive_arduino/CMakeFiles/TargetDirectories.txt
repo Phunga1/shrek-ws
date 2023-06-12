@@ -1,0 +1,11 @@
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/install/strip.dir
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/install/local.dir
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/install.dir
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/list_install_components.dir
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/rebuild_cache.dir
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/edit_cache.dir
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/test.dir
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/fake_robot.dir
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/diffdrive_arduino.dir
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/diffdrive_arduino_uninstall.dir
+/home/shrek/shrek_ws/build/diffdrive_arduino/CMakeFiles/uninstall.dir

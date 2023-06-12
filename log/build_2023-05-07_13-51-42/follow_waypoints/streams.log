@@ -1,0 +1,17 @@
+[0.771s] Invoking command in '/home/shrek/shrek_ws/build/follow_waypoints': PYTHONPATH=/home/shrek/shrek_ws/build/follow_waypoints/prefix_override:/home/shrek/shrek_ws/install/follow_waypoints/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shrek/shrek_ws/build/follow_waypoints/build --no-deps install_data
+[0.955s] running develop
+[1.046s] running egg_info
+[1.046s] writing follow_waypoints.egg-info/PKG-INFO
+[1.046s] writing dependency_links to follow_waypoints.egg-info/dependency_links.txt
+[1.046s] writing entry points to follow_waypoints.egg-info/entry_points.txt
+[1.046s] writing requirements to follow_waypoints.egg-info/requires.txt
+[1.046s] writing top-level names to follow_waypoints.egg-info/top_level.txt
+[1.070s] reading manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[1.070s] writing manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[1.095s] running build_ext
+[1.095s] Creating /home/shrek/shrek_ws/install/follow_waypoints/lib/python3.8/site-packages/follow-waypoints.egg-link (link to .)
+[1.096s] Installing follow_waypoints_exe script to /home/shrek/shrek_ws/install/follow_waypoints/lib/follow_waypoints
+[1.096s] 
+[1.096s] Installed /home/shrek/shrek_ws/build/follow_waypoints
+[1.096s] running install_data
+[1.135s] Invoked command in '/home/shrek/shrek_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/shrek/shrek_ws/build/follow_waypoints/prefix_override:/home/shrek/shrek_ws/install/follow_waypoints/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/shrek/shrek_ws/build/follow_waypoints/build --no-deps install_data
