@@ -9,7 +9,6 @@
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
-/home/shrek/shrek_ws/install/my_bot/share/my_bot/description/lidar.xacro
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/robot_core.xacro
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
@@ -18,7 +17,6 @@
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/localization_launch.py
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/navigation_launch.py
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/online_async_launch.py
-/home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/rd.launch.py
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/worlds/empty.world
 /home/shrek/shrek_ws/install/my_bot/share/my_bot/worlds/speeltuin
